@@ -1,0 +1,20 @@
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1.3</title>
+  </head>
+  <body>
+    <h2>Hello World!</h2>
+    <p>Tui tên là Nguyễn Thu Quỳnh</p>
+    <p class="intro">Lớp CNTT D2024 A</p>
+    <p class="intro">Trường Đai học Thủ đô</p>
+    <p id="demo"></p>
+    <script>
+      var x = document.getElementsByClassName("intro");
+      document.getElementById("demo").innerHTML =
+        'the first paragraph (index 0) with class="in    tro": ' +
+        x[0].innerHTML;
+    </script>
+  </body>
+</html>
